@@ -221,6 +221,55 @@
   font-weight: 400;
 }
 
-/* .about {}
+.about {
+  display: grid;
+  grid-template-columns: 334px auto;
+  gap: 25px;
+  padding: 120px 24px 180px;
+}
 
-.footer {} */
+.about__column {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+
+.about__logo {
+  display: grid;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.about__logo-image {
+  width: 148px;
+  justify-self: center;
+  align-self: center;
+}
+
+.about__title {
+  color: #000;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 136px 0 100px;
+}
+
+.about__text {
+  color: #000;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-right: 5px;
+}
+
+.first-paragraf {
+  padding-bottom: 24px;
+}
+
+
+
+
+/* .footer {} */
